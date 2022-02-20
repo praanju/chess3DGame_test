@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9200347747572784062}
   - component: {fileID: 9200347747572784059}
   m_Layer: 0
-  m_Name: Tile
+  m_Name: HoveredTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd1aea5d8325e024aa52e6f9f18585c4, type: 2}
+  - {fileID: 2100000, guid: 70cabf416cc975b4a812fc12728b7af6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -110,4 +110,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Position: {x: 0, y: 5}
-  HoveredMaterial: {fileID: 2100000, guid: 70cabf416cc975b4a812fc12728b7af6, type: 2}

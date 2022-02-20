@@ -8,7 +8,7 @@ namespace ThreeSpace.Chess
 
         public Board board;
         public GameObject thisPiece;
-
+      
         void Start()
         {
             board = GetComponentInParent<Board>();
